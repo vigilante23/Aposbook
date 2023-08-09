@@ -12,8 +12,8 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 from langchain.chains import RetrievalQA
-# os.environ["OPENAI_API_KEY"] = st.secrets["API"]
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = st.secrets["API"]
+
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 st.header("KNOW ABOUT APOSBOOK")
