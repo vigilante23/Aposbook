@@ -57,9 +57,5 @@ if user_question:
         response = chain.run(input_documents=docs, question=user_question)
         print(cb)
               
-    st.write(response)
-    clear_button = st.button("Clear")
-
-    if clear_button:
-        user_question=st.text_input("")
+  
 
