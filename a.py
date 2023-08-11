@@ -14,6 +14,9 @@ from langchain.callbacks import get_openai_callback
 from langchain.chains import RetrievalQA
 os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
+style1 = {'border-radius': '5px'}
+
+
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 st.image(image_url)
 
