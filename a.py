@@ -42,7 +42,9 @@ embeddings = OpenAIEmbeddings()
 knowledge_base = FAISS.from_texts(chunks, embeddings)
 
 
+image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 
+st.image(image_url, width=100, height=100)
       
 
 user_question = st.text_input("What do you want to know about AposBook")
