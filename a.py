@@ -20,9 +20,9 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
-st.image(image_url)
+st.image(image_url, align='center')
 
-st.header("KNOW ABOUT APOSBOOK")
+st.header("KNOW ABOUT APOSBOOK", align='center')
 
 
 # upload file
@@ -50,7 +50,7 @@ knowledge_base = FAISS.from_texts(chunks, embeddings)
 
 
       
-user_question = st.text_input("What do you want to know about AposBook")
+user_question = st.text_input("What do you want to know about AposBook",align='center' )
 if user_question:
     docs = knowledge_base.similarity_search(user_question)
             
