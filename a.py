@@ -14,13 +14,13 @@ from langchain.callbacks import get_openai_callback
 from langchain.chains import RetrievalQA
 os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
-style1 = {'border-radius': '5px'}
 
+st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
+
+style1 = {'border-radius': '5px'}
 
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 st.image(image_url)
-
-st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 st.header("KNOW ABOUT APOSBOOK")
 
 
@@ -50,7 +50,7 @@ knowledge_base = FAISS.from_texts(chunks, embeddings)
 
       
 
-user_question = st.text_input("What do you want to know about AposBook")
+user_question = st.text_input("What do you want to know about AposBook", style1)
 if user_question:
     docs = knowledge_base.similarity_search(user_question)
             
