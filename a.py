@@ -14,6 +14,8 @@ from langchain.callbacks import get_openai_callback
 from langchain.chains import RetrievalQA
 os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
+image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
+st.image(image_url)
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 st.header("KNOW ABOUT APOSBOOK")
@@ -42,9 +44,7 @@ embeddings = OpenAIEmbeddings()
 knowledge_base = FAISS.from_texts(chunks, embeddings)
 
 
-image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 
-st.image(image_url)
       
 
 user_question = st.text_input("What do you want to know about AposBook")
