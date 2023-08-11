@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit import components_v1 as components
+
 
 import os
 import re
