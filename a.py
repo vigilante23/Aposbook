@@ -19,18 +19,9 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 
-custom_css = """
-<style>
-/* Rounded corner text input */
-.stTextInput input[type="text"] {
-    border-radius: 15px; /* Adjust the value to control the roundness of corners */
-}
-</style>
-"""
-
-
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 st.image(image_url)
+
 st.header("KNOW ABOUT APOSBOOK")
 
 
@@ -59,7 +50,6 @@ knowledge_base = FAISS.from_texts(chunks, embeddings)
 
 
       
-components.html(custom_css)
 user_question = st.text_input("What do you want to know about AposBook")
 if user_question:
     docs = knowledge_base.similarity_search(user_question)
