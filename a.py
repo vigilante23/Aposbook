@@ -23,7 +23,7 @@ with open("styling.css") as source_des:
 
 
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
-st.image(image_url, align='left')
+st.image(image_url)
 
 st.header("KNOW ABOUT APOSBOOK")
 
