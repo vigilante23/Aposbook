@@ -1,6 +1,6 @@
 import streamlit as st
 
-
+import urllib.request
 import os
 import re
 import openai
@@ -19,7 +19,14 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 source_des= "https://raw.githubusercontent.com/vigilante23/Aposbook/main/styling.css"
-css_content = requests.get(source_des).text
+
+@st.cache
+def fetch_css_content(url):
+    with urllib.request.urlopen(url) as response:
+        return response.read().decode()
+
+css_content = fetch_css_content(source_des)
+
 st.markdown(f'<link rel="stylesheet" href="{css_content}">', unsafe_allow_html=True)
 st.markdown(f"<style>{source_des}</style>", unsafe_allow_html=True)
 
