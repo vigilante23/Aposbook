@@ -18,17 +18,37 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
-source_des= "https://raw.githubusercontent.com/vigilante23/Aposbook/main/styling.css"
+custom="""
+<style>
+div.css-1v0mbdj.e115fcil1 > img
+{
+    max-width: 70%;
+    margin: auto;
+}
+span.css-10trblm.e1nzilvr0
+{
+    margin-left: 30%;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 3px;
+}
+div.css-16idsys.e1nzilvr4   
+{
+    font-family: 'Consolas', monospace;
+    margin-left: 26%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+div.st-bc.st-b3.st-bd.st-b8.st-be.st-bf.st-bg.st-bh.st-bi.st-bj.st-bk.st-bl.st-bm.st-b1.st-bn.st-au.st-ax.st-av.st-aw.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bo.st-bp.st-bq.st-br.st-bs.st-bt.st-bu
+{
+    border-radius: 35px;
+    width: 110%;
+    
+}
+<style>
+"""
 
-@st.cache
-def fetch_css_content(url):
-    with urllib.request.urlopen(url) as response:
-        return response.read().decode()
+st.markdown(f"<style>{custom}</style>", unsafe_allow_html=True)
 
-css_content = fetch_css_content(source_des)
-
-st.markdown(f'<link rel="stylesheet" href="{css_content}">', unsafe_allow_html=True)
-st.markdown(f"<style>{source_des}</style>", unsafe_allow_html=True)
 
 
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
