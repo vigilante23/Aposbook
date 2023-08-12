@@ -18,6 +18,9 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
+with open("styling.css") as source_des:
+    st.markdown(f"<style>{source_des.read()}</style>", unsafe_allow_html=True)
+
 
 image_url = 'https://aposbook.com/static/new_blog_frontend/images/AposBook.png'
 st.image(image_url, align='left')
