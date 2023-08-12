@@ -19,7 +19,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 source_des= "https://raw.githubusercontent.com/vigilante23/Aposbook/main/styling.css"
-
+st.markdown(f'<link rel="stylesheet" href="{source_des}">', unsafe_allow_html=True)
 st.markdown(f"<style>{source_des}</style>", unsafe_allow_html=True)
 
 
