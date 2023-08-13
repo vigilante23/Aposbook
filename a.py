@@ -27,7 +27,7 @@ div.css-1v0mbdj.e115fcil1 > img
 }
 span.css-10trblm.e1nzilvr0
 {
-    margin-left: 30%;
+    margin-left: 10%;
     font-family: 'Courier New', monospace;
     letter-spacing: 3px;
 }
