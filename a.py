@@ -31,6 +31,11 @@ span.css-10trblm.e1nzilvr0
     font-family: 'Courier New', monospace;
     letter-spacing: 3px;
 }
+div css-5rimss e1nzilvr4
+{
+    margin-left: 20%;
+    letter-spacing: 1.7px;
+}
 div.css-16idsys.e1nzilvr4   
 {
     font-family: 'Consolas', monospace;
@@ -38,6 +43,13 @@ div.css-16idsys.e1nzilvr4
     letter-spacing: 2px;
     font-weight: bold;
 }
+div.st-b3 st-b8 st-bv st-b1 st-bn st-ae st-af st-ag st-ah st-ai st-aj st-bw st-bs >
+input.st-bc.st-bx.st-by.st-bz.st-c0.st-c1.st-c2.st-c3.st-c4.st-c5.st-c6.st-b8.st-c7.st-c8.st-c9.st-ca.st-cb.st-cc.st-cd.st-ce.st-ae.st-af.st-ag.st-cf.st-ai.st-aj.st-bw.st-cg.st-ch.st-ci
+{
+	text-align: center;
+	word-spacing: -2px;
+}
+
 div.st-bc.st-b3.st-bd.st-b8.st-be.st-bf.st-bg.st-bh.st-bi.st-bj.st-bk.st-bl.st-bm.st-b1.st-bn.st-au.st-ax.st-av.st-aw.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bo.st-bp.st-bq.st-br.st-bs.st-bt.st-bu
 {
     border-radius: 35px;
