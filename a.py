@@ -23,7 +23,7 @@ custom="""
 div.css-1v0mbdj.e115fcil1 > img
 {
     max-width: 70%;
-    margin: auto;
+    margin-left: 10%;
 }
 span.css-10trblm.e1nzilvr0
 {
@@ -39,7 +39,7 @@ div.css-5rimss.e1nzilvr4
 div.css-16idsys.e1nzilvr4   
 {
     font-family: 'Consolas', monospace;
-    margin-left: 1%;
+    margin-left: 26%;
     letter-spacing: 2px;
     font-weight: bold;
 }
