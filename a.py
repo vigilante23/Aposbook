@@ -39,7 +39,7 @@ div.css-5rimss.e1nzilvr4
 div.css-16idsys.e1nzilvr4   
 {
     font-family: 'Consolas', monospace;
-    margin-left: 26%;
+    margin-left: 1%;
     letter-spacing: 2px;
     font-weight: bold;
 }
