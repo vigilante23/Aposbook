@@ -28,7 +28,7 @@ div.css-1v0mbdj.e115fcil1 > img
 span.css-10trblm.e1nzilvr0
 {
     margin-left: 8%;
-    font-family: 'Courier New', monospace;
+    font-family: 'Poppins', sans-serif !important;
     letter-spacing: 3px;
 }
 div.css-5rimss.e1nzilvr4
