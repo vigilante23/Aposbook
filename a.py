@@ -22,7 +22,7 @@ custom="""
 <style>
 div.css-1v0mbdj.e115fcil1 > img
 {
-    max-width: 50%;
+    width: 50%;
     margin: auto;
 }
 span.css-10trblm.e1nzilvr0
