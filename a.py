@@ -28,6 +28,7 @@ div.css-1v0mbdj.e115fcil1 > img
 span.css-10trblm.e1nzilvr0
 {
     margin-left: 8%;
+    font-size: 32px;
     font-family: 'Poppins', sans-serif !important;
     letter-spacing: 3px;
 }
