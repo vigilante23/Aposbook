@@ -20,6 +20,13 @@ os.environ["OPENAI_API_KEY"] = st.secrets["API"]
 st.set_page_config(page_title="CHECK DETAILS FROM YOUR RESUME")
 custom="""
 <style>
+div.css-1kyxreq.e115fcil2 
+{
+width: 50%;
+margin: auto;
+}
+
+
 div.css-1v0mbdj.e115fcil1 > img
 {
     width: 50%;
@@ -44,21 +51,21 @@ div.css-5rimss.e1nzilvr4
 }
 div.css-16idsys.e1nzilvr4   
 {
-    margin: auto;
+    
     font-size: 15px;
     letter-spacing: 0.1px;
     line-height: 27px;
     font-family: "Poppins",sans-serif !important;
     font-weight: 400;
+    margin-left: 34%;
 }
 div.st-b3.st-b8.st-bv.st-b1.st-bn.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bw.st-bs > input.st-bc.st-bx.st-by.st-bz.st-c0.st-c1.st-c2.st-c3.st-c4.st-c5.st-c6.st-b8.st-c7.st-c8.st-c9.st-ca.st-cb.st-cc.st-cd.st-ce.st-ae.st-af.st-ag.st-cf.st-ai.st-aj.st-bw.st-cg.st-ch.st-ci
 {
-	text-align: center;
 	font-size: 15px;
-    	letter-spacing: 0.1px;
-    	line-height: 27px;
-    	font-family: "Poppins",sans-serif !important;
-    	font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 27px;
+    font-family: "Poppins",sans-serif !important;
+    font-weight: 400;
         
 }
 
