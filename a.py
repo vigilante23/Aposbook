@@ -23,7 +23,7 @@ custom="""
 div.css-1v0mbdj.e115fcil1 > img
 {
     width: 50%;
-    margin: auto;
+    mmargin: auto;
 }
 span.css-10trblm.e1nzilvr0
 {
