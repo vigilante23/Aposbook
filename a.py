@@ -73,6 +73,7 @@ div.st-bc.st-b3.st-bd.st-b8.st-be.st-bf.st-bg.st-bh.st-bi.st-bj.st-bk.st-bl.st-b
 {
     border-radius: 30px;
     padding: 0 0 0 45px !important;
+    border: 1px solid #3c7ed3;
     
 }
 <style>
