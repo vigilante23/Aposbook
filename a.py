@@ -32,6 +32,13 @@ div.css-1v0mbdj.e115fcil1 > img
     width: 50%;
     margin-left: 23%;
 }
+
+div.block-container.css-1y4p8pa.ea3mdgi4
+{
+margin-top: -5%;
+}
+
+
 span.css-10trblm.e1nzilvr0
 {
     margin: auto;
