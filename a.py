@@ -22,12 +22,13 @@ custom="""
 <style>
 div.css-1v0mbdj.e115fcil1 > img
 {
-    max-width: 70%;
-    margin-left: 10%;
+    max-width: 50%;
+    margin: auto;
 }
 span.css-10trblm.e1nzilvr0
 {
-    margin-left: 8%;
+    margin: auto;
+    padding-left: 23%;
     font-size: 32px;
     font-family: 'Poppins', sans-serif !important;
     line-height: 55px;
@@ -43,6 +44,7 @@ div.css-5rimss.e1nzilvr4
 }
 div.css-16idsys.e1nzilvr4   
 {
+    margin: auto;
     font-size: 15px;
     letter-spacing: 0.1px;
     line-height: 27px;
@@ -57,6 +59,7 @@ div.st-b3.st-b8.st-bv.st-b1.st-bn.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bw.st-b
     	line-height: 27px;
     	font-family: "Poppins",sans-serif !important;
     	font-weight: 400;
+        margin: auto;
 }
 
 div.st-bc.st-b3.st-bd.st-b8.st-be.st-bf.st-bg.st-bh.st-bi.st-bj.st-bk.st-bl.st-bm.st-b1.st-bn.st-au.st-ax.st-av.st-aw.st-ae.st-af.st-ag.st-ah.st-ai.st-aj.st-bo.st-bp.st-bq.st-br.st-bs.st-bt.st-bu
