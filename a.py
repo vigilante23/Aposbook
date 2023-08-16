@@ -97,7 +97,7 @@ st.header("KNOW ABOUT APOSBOOK")
 
 
 # upload file
-pdf = "sodapdf-converted-3.pdf"
+pdf = "extracted_data.pdf"
     
     # extract the text
 if pdf is not None:
